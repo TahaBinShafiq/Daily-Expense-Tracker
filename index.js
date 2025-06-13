@@ -11,7 +11,7 @@ for (var i = 1; i <= 7; i++){
         i--;
     }
 
-}~
+}
 
 function getTotalExpense(expArray){
     var total = 0;
@@ -27,8 +27,9 @@ function getAverageExpense(expArray){
     return avg;
 }
 
-var totalSpent = getTotalExpense(expenses);
+var totalSpent = getTotalExpense (expenses);
 var avgSpent = getAverageExpense (expenses);
 
-console.log("Total this week: Rs " + totalSpent.toFixed(2));
-console.log("Average per day: Rs " + avgSpent.toFixed(2));
+console.log("Total this week: Rs " + totalSpent.toFixed());
+console.log("Average per day: Rs " + avgSpent.toFixed());
+
